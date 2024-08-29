@@ -72,6 +72,12 @@ La base de datos se obtuvo del siguiente medio: https://www.kaggle.com/datasets/
    ```
 
 3. El sistema te guiará para entrenar el modelo y realizar predicciones. Deberás proporcionar el número de épocas y la tasa de aprendizaje. Luego, podrás ingresar datos de nuevos pacientes para realizar predicciones.
+    * La edad es en un rango de 0-80 años.
+    * Si tienes tienes una endermedad del corazón, indica que no con "0", si tienes una enfermedad indica con "1".
+    * Ingresa el nivel de masa corporal (IMC).
+    * HbA1c (Hemoglobin A1c) s una medida del nivel promedio de azúcar en sangre de una persona de los últimos 2-3 meses.
+    * Se debe de ingresar el nivel de glucosa en la sangre.
+    * Se debe de indicar el sexo de la persona. 0 si es hombre, 1 s es mujer.
 
 4. Los resultados del modelo, incluyendo la precisión y otros indicadores, se mostrarán en la consola.
 
